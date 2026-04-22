@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+.pixel-btn {
+  @apply relative px-3 py-2 text-sm font-pixel uppercase tracking-wider select-none cursor-pointer
+         border-2 border-black bg-panel/80 text-white transition-all active:translate-y-[2px];
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.6), inset 0 0 0 2px rgba(255, 255, 255, 0.06);
+}
+
+.pixel-btn:hover { filter: brightness(1.15); }
+
+.pixel-btn.primary { @apply bg-gold text-black border-black; box-shadow: 3px 3px 0 0 rgba(0,0,0,0.7), inset 0 -3px 0 0 rgba(0,0,0,0.2); }
+.pixel-btn.danger  { @apply bg-danger text-white; box-shadow: 3px 3px 0 0 rgba(0,0,0,0.7); }
+.pixel-btn.sakura  { background: #FFB7C5; color: #3b1d2b; }
+
+.panel {
+  @apply border-2 border-black bg-panel/80 backdrop-blur-sm;
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.6);
+}
+
+.pixel-font { font-family: "Press Start 2P", "VT323", monospace; letter-spacing: 0.5px; }
+.vt-font    { font-family: "VT323", "Press Start 2P", monospace; }
+
+/* Energy bar */
+.energy-track {
+  @apply relative w-full h-5 bg-black border-2 border-black;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,0.08);
+}
+.energy-fill {
+  @apply h-full transition-all duration-500;
+  background: linear-gradient(90deg, #ffd700 0%, #ff9a3c 100%);
+}
+.energy-fill.neg { background: linear-gradient(90deg, #E53935, #8a0000); }
+
+/* Sakura rain */
+.sakura-petal {
+  @apply absolute w-2 h-2;
+  background: #FFB7C5;
+  border-radius: 50% 0 50% 0;
+  animation: sakura linear infinite;
+  filter: drop-shadow(0 0 3px rgba(255,183,197,0.6));
+}
+
+/* Character glow ring */
+.char-glow::before {
+  content: "";
+  position: absolute;
+  inset: -10%;
+  border-radius: 50%;
+  box-shadow: 0 0 30px 6px rgba(255, 255, 255, 0.25);
+  z-index: -1;
+}
+
+/* Scrolling ground */
+.ground-strip {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #2a3a55 0 32px,
+    #324464 32px 64px,
+    #2a3a55 64px 96px,
+    #1f2d48 96px 128px
+  );
+  image-rendering: pixelated;
+}

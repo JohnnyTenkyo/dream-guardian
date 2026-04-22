@@ -1,0 +1,234 @@
+{
+  "gems": [
+    {
+      "slug": "ruby",
+      "name": "红宝石宝石 +1ATK",
+      "atk": 1,
+      "price": 10,
+      "image": "/items/ruby.png",
+      "type": "gem"
+    },
+    {
+      "slug": "sapphire",
+      "name": "蓝宝石宝石 +3ATK",
+      "atk": 3,
+      "price": 30,
+      "image": "/items/sapphire.png",
+      "type": "gem"
+    },
+    {
+      "slug": "emerald",
+      "name": "翡翠宝石 +5ATK",
+      "atk": 5,
+      "price": 50,
+      "image": "/items/emerald.png",
+      "type": "gem"
+    },
+    {
+      "slug": "topaz",
+      "name": "黄玉宝石 +7ATK",
+      "atk": 7,
+      "price": 70,
+      "image": "/items/topaz.png",
+      "type": "gem"
+    },
+    {
+      "slug": "amethyst",
+      "name": "紫晶宝石 +10ATK",
+      "atk": 10,
+      "price": 100,
+      "image": "/items/amethyst.png",
+      "type": "gem"
+    },
+    {
+      "slug": "diamond",
+      "name": "钻石宝石 +15ATK",
+      "atk": 15,
+      "price": 150,
+      "image": "/items/diamond.png",
+      "type": "gem"
+    },
+    {
+      "slug": "onyx",
+      "name": "玛瑙宝石 +20ATK",
+      "atk": 20,
+      "price": 200,
+      "image": "/items/onyx.png",
+      "type": "gem"
+    },
+    {
+      "slug": "moonstone",
+      "name": "月光石宝石 +30ATK",
+      "atk": 30,
+      "price": 300,
+      "image": "/items/moonstone.png",
+      "type": "gem"
+    }
+  ],
+  "frames": [
+    {
+      "slug": "frame_wood",
+      "name": "原木头像框",
+      "price": 50,
+      "image": "/frames/frame_wood.png",
+      "type": "frame"
+    },
+    {
+      "slug": "frame_silver",
+      "name": "白银头像框",
+      "price": 120,
+      "image": "/frames/frame_silver.png",
+      "type": "frame"
+    },
+    {
+      "slug": "frame_gold",
+      "name": "黄金头像框",
+      "price": 250,
+      "image": "/frames/frame_gold.png",
+      "type": "frame"
+    },
+    {
+      "slug": "frame_royal",
+      "name": "皇室头像框",
+      "price": 500,
+      "image": "/frames/frame_royal.png",
+      "type": "frame"
+    },
+    {
+      "slug": "frame_neon",
+      "name": "霓虹头像框",
+      "price": 800,
+      "image": "/frames/frame_neon.png",
+      "type": "frame"
+    },
+    {
+      "slug": "frame_star",
+      "name": "星辰头像框",
+      "price": 1200,
+      "image": "/frames/frame_star.png",
+      "type": "frame"
+    }
+  ],
+  "bosses": [
+    {
+      "slug": "shadow_slime",
+      "name": "暗影史莱姆",
+      "hp": 5,
+      "image": "/bosses/shadow_slime.png"
+    },
+    {
+      "slug": "void_orb",
+      "name": "虚空球体",
+      "hp": 7,
+      "image": "/bosses/void_orb.png"
+    },
+    {
+      "slug": "fire_demon",
+      "name": "烈焰恶魔",
+      "hp": 9,
+      "image": "/bosses/fire_demon.png"
+    },
+    {
+      "slug": "ice_wraith",
+      "name": "冰霜幽魂",
+      "hp": 11,
+      "image": "/bosses/ice_wraith.png"
+    },
+    {
+      "slug": "forest_imp",
+      "name": "森林小妖",
+      "hp": 13,
+      "image": "/bosses/forest_imp.png"
+    },
+    {
+      "slug": "lava_golem",
+      "name": "熔岩巨人",
+      "hp": 15,
+      "image": "/bosses/lava_golem.png"
+    },
+    {
+      "slug": "dream_eater",
+      "name": "梦境吞噬者",
+      "hp": 17,
+      "image": "/bosses/dream_eater.png"
+    },
+    {
+      "slug": "night_bat",
+      "name": "夜之蝙蝠",
+      "hp": 19,
+      "image": "/bosses/night_bat.png"
+    },
+    {
+      "slug": "moon_serpent",
+      "name": "月蛇",
+      "hp": 21,
+      "image": "/bosses/moon_serpent.png"
+    },
+    {
+      "slug": "star_lich",
+      "name": "星界巫妖",
+      "hp": 23,
+      "image": "/bosses/star_lich.png"
+    },
+    {
+      "slug": "sleep_gremlin",
+      "name": "睡魔",
+      "hp": 25,
+      "image": "/bosses/sleep_gremlin.png"
+    },
+    {
+      "slug": "crimson_knight",
+      "name": "绯红骑士",
+      "hp": 27,
+      "image": "/bosses/crimson_knight.png"
+    },
+    {
+      "slug": "iron_gargoyle",
+      "name": "铁翼石像鬼",
+      "hp": 29,
+      "image": "/bosses/iron_gargoyle.png"
+    },
+    {
+      "slug": "rotten_pumpkin",
+      "name": "腐烂南瓜",
+      "hp": 31,
+      "image": "/bosses/rotten_pumpkin.png"
+    },
+    {
+      "slug": "ghost_child",
+      "name": "幽灵孩童",
+      "hp": 33,
+      "image": "/bosses/ghost_child.png"
+    },
+    {
+      "slug": "chaos_blob",
+      "name": "混沌黏菌",
+      "hp": 35,
+      "image": "/bosses/chaos_blob.png"
+    },
+    {
+      "slug": "clock_beast",
+      "name": "时钟野兽",
+      "hp": 37,
+      "image": "/bosses/clock_beast.png"
+    },
+    {
+      "slug": "mirror_wraith",
+      "name": "镜面幽魂",
+      "hp": 39,
+      "image": "/bosses/mirror_wraith.png"
+    },
+    {
+      "slug": "dark_phoenix",
+      "name": "暗夜不死鸟",
+      "hp": 41,
+      "image": "/bosses/dark_phoenix.png"
+    },
+    {
+      "slug": "final_keeper",
+      "name": "终焉守护者",
+      "hp": 43,
+      "image": "/bosses/final_keeper.png"
+    }
+  ]
+}

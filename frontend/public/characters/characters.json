@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "slug": "snoopy",
+      "name": "Snoopy",
+      "animations": {
+        "garden": "/characters/snoopy/snoopy_garden.webp",
+        "ipad": "/characters/snoopy/snoopy_ipad.webp",
+        "music": "/characters/snoopy/snoopy_music.webp",
+        "read": "/characters/snoopy/snoopy_read.webp",
+        "run": "/characters/snoopy/snoopy_run.webp",
+        "sleep": "/characters/snoopy/snoopy_sleep.webp",
+        "walk": "/characters/snoopy/snoopy_walk.webp",
+        "work": "/characters/snoopy/snoopy_work.webp",
+        "workout": "/characters/snoopy/snoopy_workout.webp"
+      }
+    },
+    {
+      "slug": "rockman",
+      "name": "洛克人EXE",
+      "animations": {
+        "garden": "/characters/rockman/rockman_garden.webp",
+        "ipad": "/characters/rockman/rockman_ipad.webp",
+        "music": "/characters/rockman/rockman_music.webp",
+        "read": "/characters/rockman/rockman_read.webp",
+        "run": "/characters/rockman/rockman_run.webp",
+        "sleep": "/characters/rockman/rockman_sleep.webp",
+        "walk": "/characters/rockman/rockman_walk.webp",
+        "work": "/characters/rockman/rockman_work.webp",
+        "workout": "/characters/rockman/rockman_workout.webp"
+      }
+    },
+    {
+      "slug": "pikachu",
+      "name": "皮卡丘",
+      "animations": {
+        "garden": "/characters/pikachu/pikachu_garden.webp",
+        "ipad": "/characters/pikachu/pikachu_ipad.webp",
+        "music": "/characters/pikachu/pikachu_music.webp",
+        "read": "/characters/pikachu/pikachu_read.webp",
+        "run": "/characters/pikachu/pikachu_run.webp",
+        "sleep": "/characters/pikachu/pikachu_sleep.webp",
+        "walk": "/characters/pikachu/pikachu_walk.webp",
+        "work": "/characters/pikachu/pikachu_work.webp",
+        "workout": "/characters/pikachu/pikachu_workout.webp"
+      }
+    },
+    {
+      "slug": "gundam",
+      "name": "突击自由高达",
+      "animations": {
+        "garden": "/characters/gundam/gundam_garden.webp",
+        "ipad": "/characters/gundam/gundam_ipad.webp",
+        "music": "/characters/gundam/gundam_music.webp",
+        "read": "/characters/gundam/gundam_read.webp",
+        "run": "/characters/gundam/gundam_run.webp",
+        "sleep": "/characters/gundam/gundam_sleep.webp",
+        "walk": "/characters/gundam/gundam_walk.webp",
+        "work": "/characters/gundam/gundam_work.webp",
+        "workout": "/characters/gundam/gundam_workout.webp"
+      }
+    },
+    {
+      "slug": "morty",
+      "name": "灰色蓝猫Morty",
+      "animations": {
+        "garden": "/characters/morty/morty_garden.webp",
+        "ipad": "/characters/morty/morty_ipad.webp",
+        "music": "/characters/morty/morty_music.webp",
+        "read": "/characters/morty/morty_read.webp",
+        "run": "/characters/morty/morty_run.webp",
+        "sleep": "/characters/morty/morty_sleep.webp",
+        "walk": "/characters/morty/morty_walk.webp",
+        "work": "/characters/morty/morty_work.webp",
+        "workout": "/characters/morty/morty_workout.webp"
+      }
+    },
+    {
+      "slug": "shinchan",
+      "name": "蜡笔小新",
+      "animations": {
+        "garden": "/characters/shinchan/shinchan_garden.webp",
+        "ipad": "/characters/shinchan/shinchan_ipad.webp",
+        "music": "/characters/shinchan/shinchan_music.webp",
+        "read": "/characters/shinchan/shinchan_read.webp",
+        "run": "/characters/shinchan/shinchan_run.webp",
+        "sleep": "/characters/shinchan/shinchan_sleep.webp",
+        "walk": "/characters/shinchan/shinchan_walk.webp",
+        "work": "/characters/shinchan/shinchan_work.webp",
+        "workout": "/characters/shinchan/shinchan_workout.webp"
+      }
+    },
+    {
+      "slug": "tigger",
+      "name": "跳跳虎",
+      "animations": {
+        "garden": "/characters/tigger/tigger_garden.webp",
+        "ipad": "/characters/tigger/tigger_ipad.webp",
+        "music": "/characters/tigger/tigger_music.webp",
+        "read": "/characters/tigger/tigger_read.webp",
+        "run": "/characters/tigger/tigger_run.webp",
+        "sleep": "/characters/tigger/tigger_sleep.webp",
+        "walk": "/characters/tigger/tigger_walk.webp",
+        "work": "/characters/tigger/tigger_work.webp",
+        "workout": "/characters/tigger/tigger_workout.webp"
+      }
+    },
+    {
+      "slug": "lucky",
+      "name": "金毛Lucky",
+      "animations": {
+        "garden": "/characters/lucky/lucky_garden.webp",
+        "ipad": "/characters/lucky/lucky_ipad.webp",
+        "music": "/characters/lucky/lucky_music.webp",
+        "read": "/characters/lucky/lucky_read.webp",
+        "run": "/characters/lucky/lucky_run.webp",
+        "sleep": "/characters/lucky/lucky_sleep.webp",
+        "walk": "/characters/lucky/lucky_walk.webp",
+        "work": "/characters/lucky/lucky_work.webp",
+        "workout": "/characters/lucky/lucky_workout.webp"
+      }
+    },
+    {
+      "slug": "pinkpanther",
+      "name": "顽皮豹",
+      "animations": {
+        "garden": "/characters/pinkpanther/pinkpanther_garden.webp",
+        "ipad": "/characters/pinkpanther/pinkpanther_ipad.webp",
+        "music": "/characters/pinkpanther/pinkpanther_music.webp",
+        "read": "/characters/pinkpanther/pinkpanther_read.webp",
+        "run": "/characters/pinkpanther/pinkpanther_run.webp",
+        "sleep": "/characters/pinkpanther/pinkpanther_sleep.webp",
+        "walk": "/characters/pinkpanther/pinkpanther_walk.webp",
+        "work": "/characters/pinkpanther/pinkpanther_work.webp",
+        "workout": "/characters/pinkpanther/pinkpanther_workout.webp"
+      }
+    }
+  ]
+}
