@@ -2,3 +2,7 @@ node_modules/
 dist/
 .env
 .env.local
+
+# tsc build artifacts inside src/
+src/**/*.js
+tsconfig.tsbuildinfo
