@@ -34,19 +34,24 @@ def create_app() -> FastAPI:
 
     @app.get("/api/manifest")
     def manifest():
-        manifest_path = Path(__file__).resolve().parents[2] / "frontend/public"
-        chars = manifest_path / "characters/characters.json"
-        items = manifest_path / "items/manifest.json"
+        assets_dir = Path(__file__).resolve().parent / "assets"
+        monorepo_public = Path(__file__).resolve().parents[2] / "frontend/public"
+        chars_candidates = [assets_dir / "characters.json", monorepo_public / "characters/characters.json"]
+        items_candidates = [assets_dir / "items.json", monorepo_public / "items/manifest.json"]
         data = {"characters": [], "gems": [], "frames": [], "bosses": []}
-        if chars.exists():
-            with open(chars, "r", encoding="utf-8") as f:
-                data["characters"] = json.load(f).get("characters", [])
-        if items.exists():
-            with open(items, "r", encoding="utf-8") as f:
-                obj = json.load(f)
-                data["gems"] = obj.get("gems", [])
-                data["frames"] = obj.get("frames", [])
-                data["bosses"] = obj.get("bosses", [])
+        for p in chars_candidates:
+            if p.exists():
+                with open(p, "r", encoding="utf-8") as f:
+                    data["characters"] = json.load(f).get("characters", [])
+                break
+        for p in items_candidates:
+            if p.exists():
+                with open(p, "r", encoding="utf-8") as f:
+                    obj = json.load(f)
+                    data["gems"] = obj.get("gems", [])
+                    data["frames"] = obj.get("frames", [])
+                    data["bosses"] = obj.get("bosses", [])
+                break
         return data
 
     app.include_router(auth.router)

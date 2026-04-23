@@ -9,8 +9,12 @@ from .models import ShopItem
 
 
 def seed_shop():
-    manifest = Path(__file__).resolve().parents[2] / "frontend/public/items/manifest.json"
-    if not manifest.exists():
+    candidates = [
+        Path(__file__).resolve().parent / "assets" / "items.json",
+        Path(__file__).resolve().parents[2] / "frontend/public/items/manifest.json",
+    ]
+    manifest = next((p for p in candidates if p.exists()), None)
+    if manifest is None:
         print("[seed] no manifest.json found, skipping")
         return
     with open(manifest, "r", encoding="utf-8") as f:

@@ -14,11 +14,18 @@ class Settings(BaseSettings):
     admin_username: str = "admin"
     admin_password: str = "123456"
 
-    data_dir: Path = Path("./data")
-    sqlite_path: Path = Path("./data/dream.db")
-    upload_dir: Path = Path("./data/uploads")
+    # Prefer /data (Fly.io persistent volume mount) when available, else ./data (local dev)
+    data_dir: Path = Path("/data") if Path("/data").is_dir() else Path("./data")
 
     cors_origins: str = "*"  # comma separated
+
+    @property
+    def sqlite_path(self) -> Path:
+        return self.data_dir / "dream.db"
+
+    @property
+    def upload_dir(self) -> Path:
+        return self.data_dir / "uploads"
 
 
 settings = Settings()
